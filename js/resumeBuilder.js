@@ -7,3 +7,9 @@ This is empty on purpose! Your code to build the resume will go here.
 
   var awesomeThoughts = "Iam MinaSamir and Iam AWESOME";
   console.log(awesomeThoughts);
+
+  var email = "minaSmair@gmail.com";
+  var newMail = email.replace("gmail", "mmd");
+  console.log(email);
+  console.log(newMail);
+  $("#main").append(email);
